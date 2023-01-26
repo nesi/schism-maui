@@ -9,7 +9,7 @@ gklib_path = not-set
 metis_path = not-set
 shared     = not-set
 cc         = cc
-cxx        = cc
+cxx        = CC
 
 
 # Basically proxies everything to the builddir cmake.

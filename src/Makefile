@@ -344,6 +344,9 @@ PARMETISDIR := ./ParMetis-4.0.3
 ifeq ($(ENV),EDISON)
     PARMETISDIR := $(PARMETISDIR).cray
 endif
+ifeq ($(ENV),MAUI)
+    PARMETISDIR := $(PARMETISDIR).cray
+endif
 ifeq ($(ENV),CORI2)
     PARMETISDIR := $(PARMETISDIR).cray
 endif
